@@ -1,0 +1,31 @@
+# neoforge.mods.toml for Grand Teleport (NeoForge 1.21.1)
+# Literal values (no template expansion) so the jar works without a generateModMetadata task.
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "Custom"
+
+[[mods]]
+modId = "gtalike_teleport"
+version = "1.21.1-neoforge-1.0.0"
+displayName = "Grand Teleport"
+authors = "Codex"
+description = '''Adds a cinematic GTA-style teleport transition when the local player teleports.'''
+logoFile = "assets/gtalike_teleport/icon.png"
+
+# Mixin config: all mixin classes live under dev.codex.gtaliketeleport.mixin.
+[[mixins]]
+config = "gtalike_teleport.mixins.json"
+
+[[dependencies.gtalike_teleport]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.gtalike_teleport]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"

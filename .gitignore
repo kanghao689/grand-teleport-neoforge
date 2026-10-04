@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+run/
+runs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.eclipse/
+.settings/
+.classpath
+.project
+
+# OS / logs
+*.log
+.DS_Store
+
+# Local dev environment
+libs/
