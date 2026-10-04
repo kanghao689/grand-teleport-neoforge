@@ -86,6 +86,17 @@ Requires Java 21. The mod jar is written to:
 
 A prebuilt jar is also committed under `dist/` for convenience.
 
+## Disclaimer / 免责声明
+
+本仓库是对原模组 Grand Teleport 的非官方移植，仅供学习、交流与个人使用，
+请勿用于任何商业用途。若本仓库存在任何侵权内容，请联系
+**kanghao20081011@qq.com**，本人于收到通知后将尽快删除相关内容。
+
+This repository is an unofficial port of the original Grand Teleport mod and is
+provided for study and personal use only. If any content herein infringes your
+rights, please contact **kanghao20081011@qq.com** and it will be removed
+promptly upon notification.
+
 ## License
 
 Grand Teleport source code and documentation are licensed under the MIT License,
